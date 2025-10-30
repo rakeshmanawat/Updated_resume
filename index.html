@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakesh Manawat | Digital Resume</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- PDF Download Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>👋 Welcome to My Digital Resume</h1>
+    <p class="subtitle">A snapshot of my career, creativity, and professional journey.</p>
+
+    <nav>
+      <a href="home.html">&#8962; Home</a>
+      <a href="aboutme.html">&#128100; About Me</a>
+      <a href="contact.html">&#9993; Contact</a>
+      <a href="help.html">&#10067; Help</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="Container resume-header">
+      <h2>Rakesh Manawat</h2>
+      <img src="images/Rakesh1.JPG" alt="Rakesh passport photo" height="200px" class="profile-image">
+      <p>📞 <strong>+91 96947 63686</strong></p>
+      <p>✉️ rakesh.manawat1@gmail.com | ✉️ rseervi329@gmail.com</p>
+      <p><b>🔗 GitHub:</b> <a href="https://github.com/rakeshmanawat" target="_blank">github.com/rakeshmanawat</a></p>
+      <p><b>🔗 LinkedIn:</b> <a href="https://www.linkedin.com/in/rakesh-manawat-223951121" target="_blank">rakesh-manawat</a></p>
+    </section>
+
+    <section class="Container">
+      <h3>Career Objective</h3>
+      <p>To contribute to the advantage of the organization I work for, while sharing knowledge and learning continuously to enhance my efficiency and expertise.</p>
+    </section>
+
+    <section class="Container">
+      <h3>Academic Profile</h3>
+      <table>
+        <tr>
+          <th>Degree/Exam</th>
+          <th>University</th>
+          <th>Year</th>
+          <th>Percentage/CGPA</th>
+        </tr>
+        <tr><td>M.Tech (IEM)</td><td>NIT Calicut</td><td>2025</td><td>7.71 CGPA</td></tr>
+        <tr><td>B.Tech (Mechanical Engg.)</td><td>RTU, Kota</td><td>2019</td><td>7.48 CGPA</td></tr>
+        <tr><td>Sr. Secondary</td><td>RBSE</td><td>2014</td><td>78.80%</td></tr>
+        <tr><td>Secondary</td><td>RBSE</td><td>2012</td><td>87.17%</td></tr>
+      </table>
+    </section>
+
+    <section class="Container">
+      <h3>Technical Skills</h3>
+      <table>
+        <tr><td>MS-Office (Excel, Word, PowerPoint)</td><td>Google Workspace (Sheets, Docs, Forms)</td></tr>
+        <tr><td>BI Tools (Tableau, Power BI)</td><td>Basics of SQL</td></tr>
+        <tr><td>Frontend: HTML, CSS</td><td>Data Analytics</td></tr>
+        <tr><td>Quantitative Analysis</td><td>Operations Planning & Control</td></tr>
+        <tr><td>Inventory Management</td><td>Supply Chain Management</td></tr>
+      </table>
+    </section>
+
+    <section class="Container">
+      <h3>Soft Skills</h3>
+      <ul class="skills-list">
+        <li><b>Critical Thinking:</b> Interpreting data correctly and drawing insights.</li>
+        <li><b>Problem Solving:</b> Identifying solutions from complex data sets.</li>
+        <li><b>Communication:</b> Explaining findings clearly to diverse audiences.</li>
+        <li><b>Attention to Detail:</b> Ensuring data accuracy and consistency.</li>
+        <li><b>Business Acumen:</b> Understanding business needs and data-driven solutions.</li>
+      </ul>
+    </section>
+
+    <section class="Container">
+      <h3>Projects</h3>
+      <ul>
+        <li><b>Traffic Congestion Analysis:</b> Used Python to analyze and propose solutions to reduce waiting times.</li>
+        <li><b>Dual Axis Solar Tracker:</b> Designed an automated system to track sunlight for maximum power.</li>
+        <li><b>Customer Churn Prediction:</b> Built ML models to predict churn using logistic regression & random forest.</li>
+      </ul>
+    </section>
+
+    <section class="Container">
+      <h3>Domain Knowledge</h3>
+      <ul>
+        <li>Supply Chain & Logistics Analytics</li>
+        <li>Operations & Inventory Management</li>
+        <li>Lean Production & Optimization</li>
+        <li>Decision Modelling</li>
+      </ul>
+    </section>
+
+    <section class="Container">
+      <h3>Strengths</h3>
+      <ul>
+        <li>Self-disciplined, honest, and hardworking</li>
+        <li>Fast learner and adaptive to new challenges</li>
+        <li>Goal-oriented with strong teamwork abilities</li>
+      </ul>
+    </section>
+
+    <section class="Container">
+      <h3>Certifications</h3>
+      <ul>
+        <li>HTML Course — <a href="https://www.knowledgegate.ai/certificate/0BF7FB20">🔗</a></li>
+        <li>Data Science Bootcamp — <a href="images/data science certificate.jpg">🔗</a></li>
+        <li>SQL & Databases Bootcamp — <a href="images/SQL certificate.pdf">🔗</a></li>
+      </ul>
+    </section>
+
+    <section class="Container">
+      <h3>Declaration</h3>
+      <p>I hereby declare that all the above information is true to the best of my knowledge.</p>
+    </section>
+
+    <div class="center">
+      <button onclick="downloadPDF()" class="download-btn">⬇ Download Resume (PDF)</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Rakesh Manawat. All rights reserved.
+  </footer>
+</body>
+</html>
